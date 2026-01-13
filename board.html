@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小黑板 - 腕能 Watch One</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="assets/js/layout.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Header will be rendered by layout.js -->
+    </header>
+
+    <section class="board-section">
+        <div class="container">
+            <div class="board-header">
+                <h1>小黑板</h1>
+                <p>公告 · 新闻 · 教程</p>
+            </div>
+
+            <!-- 内容容器：由 JS 动态填充 -->
+            <div id="board-container" class="board-container">
+                <!-- 加载中状态 -->
+                <div class="loading-state">
+                    加载中...
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="about">
+        <!-- Footer will be rendered by layout.js -->
+    </footer>
+
+    <script src="assets/js/board.js"></script>
+</body>
+
+</html>
