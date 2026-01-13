@@ -406,46 +406,13 @@ footer {
   }
 }
 
-/* Webview Controls (Mobile Only) */
+/* Webview Controls (Removed) */
+/* 
 .webview-controls {
-  display: none; /* Desktop hidden */
+  display: none;
 }
-
 @media (max-width: 768px) {
-  .webview-controls {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(20px);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    z-index: 1000;
-    padding-bottom: max(10px, env(safe-area-inset-bottom));
-  }
-
-  .webview-controls button {
-    background: none;
-    border: none;
-    color: var(--text-color);
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .webview-controls button:active {
-    background: rgba(0, 0, 0, 0.05);
-  }
-
-  /* 增加页面底部内边距，防止内容被遮挡 */
-  body {
-    padding-bottom: 60px;
-  }
+  .webview-controls { ... }
+  body { padding-bottom: 60px; }
 }
+*/

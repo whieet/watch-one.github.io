@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     renderHeader();
     renderFooter();
-    renderWebviewControls(); // 新增：Webview 控制条
+    // renderWebviewControls(); // 已移除：底部 Webview 控制条
     highlightActiveNav();
 });
 
@@ -54,6 +54,7 @@ function renderHeader() {
     }
 }
 
+/* 
 function renderWebviewControls() {
     // 创建底部控制条
     const controlsHtml = `
@@ -74,6 +75,7 @@ function renderWebviewControls() {
     controlsDiv.innerHTML = controlsHtml;
     document.body.appendChild(controlsDiv);
 }
+*/
 
 function renderFooter() {
     const footerHtml = `
