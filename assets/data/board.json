@@ -1,5 +1,14 @@
 [
   {
+    "id": 2,
+    "type": "update",
+    "title": "腕能 3.3 版本更新：全屏健康监测与阅读器升级",
+    "date": "2026-01-15",
+    "summary": "全网首创全屏健康监测，一屏尽览身体状态；阅读器新增多种编码格式支持，告别乱码。",
+    "video": "assets/videos/v3_3.mp4",
+    "url": "articles/update-v3.3.html"
+  },
+  {
     "id": 1,
     "type": "guide",
     "title": "初识腕能 Watch One：你的智能手表终极伴侣",

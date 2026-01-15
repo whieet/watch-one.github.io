@@ -1,10 +1,10 @@
 {
-  "last_updated": 1768521605,
+  "last_updated": 1768521600,
   "latest_article": {
-    "id": 1,
-    "title": "初识腕能 Watch One：你的智能手表终极伴侣",
-    "type": "guide",
-    "date": "2024-01-13"
+    "id": 2,
+    "title": "腕能 3.3 版本更新：全屏健康监测与阅读器升级",
+    "type": "update",
+    "date": "2026-01-15"
   },
   "app_config": {
     "show_badge": true,

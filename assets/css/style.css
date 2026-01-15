@@ -222,6 +222,10 @@ footer {
   background: #f3e5f5;
   color: #7b1fa2;
 }
+.tag.update {
+  background: #e0f7fa;
+  color: #006064;
+}
 
 .date {
   color: var(--secondary-text);
@@ -404,6 +408,51 @@ footer {
     font-size: 18px;
     padding: 0 20px;
   }
+}
+
+/* Article Video Container */
+.video-container {
+  width: 100%;
+  margin: 20px 0 30px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #000;
+  position: relative;
+  /* 默认假设 16:9 比例，可通过 padding-top 调整
+     16:9 = 56.25%
+     4:3 = 75%
+  */
+  padding-top: 56.25%;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持填充，必要时裁剪，或者用 contain 保持完整 */
+}
+
+/* Board List Video Preview */
+.board-video-preview {
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.board-video-preview video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Webview Controls (Removed) */
