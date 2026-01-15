@@ -38,8 +38,17 @@ document.addEventListener('DOMContentLoaded', () => {
             if (item.video) {
                 // 使用 #t=0.001 获取第一帧作为封面，preload="metadata" 预加载元数据
                 videoHtml = `
-                <div class="board-video-preview">
-                    <video playsinline preload="metadata" loop muted autoplay>
+                <div class="board-video-preview" onclick="event.stopPropagation(); const v = this.querySelector('video'); v.paused ? v.play() : v.pause();">
+                    <video 
+                        playsinline 
+                        webkit-playsinline 
+                        x5-playsinline 
+                        x5-video-player-type="h5-page"
+                        x5-video-orientation="portrait"
+                        muted 
+                        loop 
+                        autoplay
+                    >
                         <source src="${item.video}#t=0.001" type="video/mp4">
                     </video>
                 </div>`;
