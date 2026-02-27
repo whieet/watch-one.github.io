@@ -1,13 +1,13 @@
 {
-  "last_updated": 1768521600,
+  "last_updated": 1772208000,
   "latest_article": {
-    "id": 2,
-    "title": "腕能 3.3 版本更新：全屏健康监测与阅读器升级",
+    "id": 4,
+    "title": "元宵限免：压力自测与身心电量，看见身体的每一刻",
     "type": "update",
-    "date": "2026-01-15"
+    "date": "2026-02-28"
   },
   "app_config": {
     "show_badge": true,
-    "force_refresh": false
+    "force_refresh": true
   }
 }
