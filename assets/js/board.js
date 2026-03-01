@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const labels = {
             'news': '新闻',
             'notice': '公告',
+            'community': '社区',
             'tutorial': '教程',
             'guide': '指南',
             'update': '更新'
