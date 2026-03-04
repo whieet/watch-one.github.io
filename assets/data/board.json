@@ -1,5 +1,13 @@
 [
   {
+    "id": 8,
+    "type": "notice",
+    "title": "公告｜因技术升级，旧表盘暂不可用，预计3月5日凌晨发版",
+    "date": "2026-03-04",
+    "summary": "预计3月5日凌晨发版，升级后可恢复旧表盘。",
+    "url": "articles/2026-03-04-watchface-migration-notice.html"
+  },
+  {
     "id": 7,
     "type": "notice",
     "title": "限免倒计时｜0元领腕能终身会员，即将恢复原价",
