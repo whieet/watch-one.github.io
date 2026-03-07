@@ -1,10 +1,10 @@
 {
-  "last_updated": 1772681365,
+  "last_updated": 1772851200,
   "latest_article": {
-    "id": 9,
-    "title": "公告｜下个长期版本开发计划：更多组件与表盘",
+    "id": 10,
+    "title": "公告｜收到大家很多反馈，感谢大家，正在进行优化",
     "type": "notice",
-    "date": "2026-03-05"
+    "date": "2026-03-07"
   },
   "app_config": {
     "show_badge": true,
